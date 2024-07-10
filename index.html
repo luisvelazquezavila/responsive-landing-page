@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/swiper-styles.css">
+</head>
+<body class="font-vietnam">
+  
+  <header class="p-[.1px]">
+    <nav class="fixed w-full px-8 h-14 flex bg-white items-center justify-between z-20 border-double border-4 border-secondary-color">
+      <a href="./" class="w-1/3 max-w-[140px]">
+        <img src="assets/logo.svg" alt="logo" class="w-full">
+      </a>
+
+      <input type="checkbox" id="menu" hidden class="peer">
+
+      <label for="menu" class="bg-open-menu w-6 h-5 bg-cover bg-center cursor-pointer peer-checked:bg-close-menu transition-all duration-300 z-10 md:hidden"></label>
+
+      <div class="fixed inset-0 bg-gradient-to-b from-white/70 to-black/70 translate-x-full peer-checked:translate-x-0 md:static md:bg-none md:translate-x-0">
+
+        <ul class="absolute inset-x-0 top-24 p-12 bg-white w-[90%] mx-auto rounded-md h-max text-center grid gap-6 font-bold text-secondary-color shadow-md shadow-black md:w-max md:bg-transparent md:p-0 md:grid-flow-col md:static md:shadow-none">
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Community</a></li>
+        </ul>
+      </div>
+      <a href="#" class="button text-sm hidden lg:block">Get Started</a>
+    </nav>
+
+    <section class="wrapper grid gap-12 justify-items-center items-center md:grid-cols-2 mt-4 md:mt-8">
+
+      <img src="assets//illustration-intro.svg" alt="illustration-intro" class="w-full m-0 max-w-lg md:order-1">
+
+      <article class="text-center md:text-left grid gap-6 md:gap-8 md:px-8">
+        <h1 class="text-secondary-color text-4xl font-bold md:text-5xl">Bring everyone together to build better products.</h1>
+        <p class="text-text-color md:max-w-[60%]">Manage makes it siple for software teams to plan day-to-day tasks while keeping the larger team goals in view.</p>
+        <a href="#" class="button mt-4 shadow-md shadow-primary-color/50 mx-auto md:mx-0">Get Started</a>
+      </article>
+      
+    </section>
+  </header>
+
+  <figure class="absolute inset-0 overflow-hidden pointer-events-none">
+    <img src="assets/bg-tablet-pattern.svg" alt="tablet-pattern" class="absolute w-full -z-10 -top-1/4 -right-28 max-w-2xl">
+  </figure>
+
+  <main>
+    <section class="wrapper grid gap-16 md:grid-cols-2">
+      <article class="text-center space-y-6 md:text-left">
+        <h2 class="text-3xl text-secondary-color font-bold">What's different about Manage?</h2>
+
+        <p class="text-text-color md:max-w-[60%]">Manage provides all the functionality your team needs without the complexity. Our software is tailor-made for modern digital product teams.</p>
+      </article>
+
+      <div class="grid gap-12">
+        <article class="space-y-6">
+          <div class="flex gap-4 text-secondary-color font-bold bg-tertiary-color rounded-l-full items-center">
+            <span class="button">01</span> 
+            <h3>Track company-wide progress</h3>
+          </div>
+          
+          <p class="text-text-color">See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.</p>
+        </article>
+
+        <article class="space-y-6">
+          <div class="flex gap-4 text-secondary-color font-bold bg-tertiary-color rounded-l-full items-center">
+            <span class="button">02</span> 
+            <h3>Advanced built-in reports</h3>
+          </div>
+          
+          <p class="text-text-color">Set internal delivery estimates and track progress toward cpmpany goals. Our costumisable dashboard helps ypu build out the reports you need to keep key stakeholders informed.</p>
+        </article>
+
+        <article class="space-y-6">
+          <div class="flex gap-4 text-secondary-color font-bold bg-tertiary-color rounded-l-full items-center">
+            <span class="button">03</span> 
+            <h3>Everything you need in one place</h3>
+          </div>
+          
+          <p class="text-text-color">Stop jumping from one service to another to communicate, store files, track stacks and share documents. Manage offers an all-inone team productivity solution.</p>
+        </article>
+        
+      </div>
+    </section>
+
+    <section class="wrapper text-center swiper mb-8">
+      <h2 class="text-secondary-color text-3xl font-bold">What they've said</h2>
+        <div class="slider-wrapper overflow-hidden max-w-7xl">
+          <div class="swiper-wrapper py-8">
+            <article class="card-item swiper-slide">
+              <img src="assets/avatar-anisha.png" alt="anisha" class="w-20">
+              <h3 class="font-bold text-secondary-color">Anisha Li</h3>
+              <p class="text-text-color max-w-80">"Manage has supercharged our team's workflow. The ability to maintain on larger milestones at all times keeps everyone moivated."</p>
+            </article>
+            <article class="card-item swiper-slide">
+              <img src="assets/avatar-ali.png" alt="anisha" class="w-20">
+              <h3 class="font-bold text-secondary-color">Ali Bravo</h3>
+              <p class="text-text-color max-w-80">"We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused."</p>
+            </article>
+            <article class="card-item swiper-slide">
+              <img src="assets/avatar-richard.png" alt="anisha" class="w-20">
+              <h3 class="font-bold text-secondary-color">Richard Watts</h3>
+              <p class="text-text-color max-w-80">"Manage allows us to provide structure and process it keeps us organized. I can't stop recommending them to everyone I talk to!."</p>
+            </article>
+            <article class="card-item swiper-slide">
+              <img src="assets/avatar-shanai.png" alt="anisha" class="w-20">
+              <h3 class="font-bold text-secondary-color">Shanai Gough</h3>
+              <p class="text-text-color max-w-80">"Their software allows us to track, manage and collaborate an our projects from any where. It keeps the whole team in-sync without being intrusive."</p>
+            </article>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev text-primary-color"></div>
+          <div class="swiper-button-next text-primary-color"></div>
+        </div>
+      <a href="#" class="button">Get Started</a>
+    </section>
+
+    <section class="bg-primary-color grid place-content-center">
+      <div class="wrapper grid gap-8 text-center justify-items-center items-center md:grid-cols-2">
+        <h2 class="text-white text-4xl font-bold md:text-5xl md:text-left">Simplify how your team works today.</h2>
+        <a href="#" class="button bg-white text-primary-color md:justify-self-end">Get Started </a>
+      </div>
+    </section>
+
+    <footer class="bg-secondary-color">
+      <section class="wrapper">
+        <div class="grid footer-area w-footer gap-12 justify-items-center mx-auto md:footer-area-md md:w-full">
+
+          <form class="flex p-0 flex-wrap text-xs lg:text-base justify-center gap-2 [grid-area:form] w-full">
+            <input type="email" placeholder="Updates in your inbox..." class="button bg-white text-text-color outline-none">
+             <button class="button">GO</button>
+          </form>
+  
+          <nav class="text-white grid grid-cols-[max-content_max-content] justify-between w-4/5 gap-y-4  [grid-area:navigation]">
+            <a href="#">Home</a>
+            <a href="#">Pricing</a>
+            <a href="#">Products</a>
+            <a href="#">Bout Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Comunity</a>
+            <a href="#">Provacy Policy</a>
+          </nav>
+  
+          <div class="flex flex-wrap justify-between gap-6 [grid-area:social-media]">
+            <a href="#">
+              <img src="assets/icon-facebook.svg" alt="Facebook icon">
+            </a>
+            <a href="#">
+              <img src="assets/icon-youtube.svg" alt="Facebook icon">
+            </a>
+            <a href="#">
+              <img src="assets/icon-twitter.svg" alt="Facebook icon">
+            </a>
+            <a href="#">
+              <img src="assets/icon-pinterest.svg" alt="Facebook icon">
+            </a>
+            <a href="#">
+              <img src="assets/icon-instagram.svg" alt="Facebook icon">
+            </a>
+          </div>
+  
+          <a href="#" class="[grid-area:logo] margin-auto">
+            <img src="assets/logo-white.svg" alt="logo">
+          </a>
+  
+          <p class="text-white text-xs [grid-area:copy]">Copyright 2020, All Rights Reserved</p>
+        </div>
+      </section>
+    </footer>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
